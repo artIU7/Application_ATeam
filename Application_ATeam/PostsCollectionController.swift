@@ -40,34 +40,58 @@ class PostsCollectionController : UITableViewController {
             }
         } else if indexPath.section == 1{
             cell = tableView.dequeueReusableCell(withIdentifier: "CommentsID", for: indexPath) as! PostsCollectionControllerCell
-            if indexPath.row == 0{
+                cell.NameComments.lineBreakMode = NSLineBreakMode.byWordWrapping
+                cell.NameComments.numberOfLines = 0
+                cell.NameComments.setNeedsDisplay()
                 cell.NameComments.text = "id labore ex et quam laborum"
-                cell.MailComments.text = "Eliseo@gardner.biz"
+                //
+               // cell.MailComments.lineBreakMode = NSLineBreakMode.byWordWrapping
+               // cell.MailComments.numberOfLines = 0
+              //  cell.MailComments.setNeedsDisplay()
+               // cell.MailComments.text = "Eliseo@gardner.biz"
+                //
+                cell.BodyComments.lineBreakMode = NSLineBreakMode.byWordWrapping
+                cell.BodyComments.numberOfLines = 0
+                cell.BodyComments.setNeedsDisplay()
                 cell.BodyComments.text = "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
                 //cell.imageHeaderCollection.image = UIImage(named: "placeHeader_mod")
-                }
         } else if indexPath.section == 2{
             cell = tableView.dequeueReusableCell(withIdentifier: "UsersID", for: indexPath) as! PostsCollectionControllerCell
-            if indexPath.row == 0{
+                cell.NameUsers1.lineBreakMode = NSLineBreakMode.byWordWrapping
+                cell.NameUsers1.numberOfLines = 0
+                cell.NameUsers1.setNeedsDisplay()
                 cell.NameUsers1.text = "Leanne Graham"
-                    cell.NameUsers1.text = "Ervin Howell"
-                        cell.NameUsers1.text = "Deckow-Crist"
-                            cell.NameUsers1.text = "Clementine Bauch"
-                                    cell.NameUsers1.text = "Patricia Lebsack"
-            }
+                //
+                cell.NameUsers2.lineBreakMode = NSLineBreakMode.byWordWrapping
+                cell.NameUsers2.numberOfLines = 0
+                cell.NameUsers2.setNeedsDisplay()
+                    cell.NameUsers2.text = "Ervin Howell"
+                cell.NameUsers3.lineBreakMode = NSLineBreakMode.byWordWrapping
+                cell.NameUsers3.numberOfLines = 0
+                cell.NameUsers3.setNeedsDisplay()
+                        cell.NameUsers3.text = "Deckow-Crist"
+                cell.NameUsers4.lineBreakMode = NSLineBreakMode.byWordWrapping
+                cell.NameUsers4.numberOfLines = 0
+                cell.NameUsers4.setNeedsDisplay()
+                            cell.NameUsers4.text = "Clementine Bauch"
+                cell.NameUsers5.lineBreakMode = NSLineBreakMode.byWordWrapping
+               cell.NameUsers5.numberOfLines = 0
+               cell.NameUsers5.setNeedsDisplay()
+                                    cell.NameUsers5.text = "Patricia Lebsack"
         } else if indexPath.section == 3{
             cell = tableView.dequeueReusableCell(withIdentifier: "PhotosID", for: indexPath) as! PostsCollectionControllerCell
-            if indexPath.row == 0{
-                cell.TitlePhotos.text = "accusamus beatae ad facilis cum similique qui sunt"
                     cell.ImagePhotos.image = UIImage(named: "placeHeader_mod")
-            }
         } else if indexPath.section == 4{
             cell = tableView.dequeueReusableCell(withIdentifier: "TodosID", for: indexPath) as! PostsCollectionControllerCell
-            if indexPath.row == 0{
-                
-                cell.TitleTodos.text = "et porro tempora"
-                cell.CompletedTodos.text = "Completed :" + "True"
-            }
+    
+                cell.TitleTodos.lineBreakMode = NSLineBreakMode.byWordWrapping
+                cell.TitleTodos.numberOfLines = 0
+                cell.TitleTodos.setNeedsDisplay()
+                    cell.TitleTodos.text = "et porro tempora"
+                cell.CompletedTodos.lineBreakMode = NSLineBreakMode.byWordWrapping
+                cell.CompletedTodos.numberOfLines = 0
+                cell.CompletedTodos.setNeedsDisplay()
+                    cell.CompletedTodos.text = "Completed :" + "True"
         }
         return cell
     }
