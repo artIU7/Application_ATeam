@@ -11,6 +11,7 @@
 		CB18697E1F8BE74600A3C1FB /* loadFromJSONPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB18697D1F8BE74600A3C1FB /* loadFromJSONPlace.swift */; };
 		CB97E06B1F8B79C100858029 /* PostsCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97E06A1F8B79C100858029 /* PostsCollectionController.swift */; };
 		CB97E06D1F8B7AA000858029 /* PostsCollectionControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97E06C1F8B7AA000858029 /* PostsCollectionControllerCell.swift */; };
+		CBE2069D1F8D395A0003CF16 /* materialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE2069C1F8D395A0003CF16 /* materialsView.swift */; };
 		CBF84C391F8B692A0074004A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF84C381F8B692A0074004A /* AppDelegate.swift */; };
 		CBF84C3B1F8B692A0074004A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF84C3A1F8B692A0074004A /* ViewController.swift */; };
 		CBF84C3E1F8B692A0074004A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF84C3C1F8B692A0074004A /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		CB18697D1F8BE74600A3C1FB /* loadFromJSONPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadFromJSONPlace.swift; sourceTree = "<group>"; };
 		CB97E06A1F8B79C100858029 /* PostsCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsCollectionController.swift; sourceTree = "<group>"; };
 		CB97E06C1F8B7AA000858029 /* PostsCollectionControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsCollectionControllerCell.swift; sourceTree = "<group>"; };
+		CBE2069C1F8D395A0003CF16 /* materialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = materialsView.swift; sourceTree = "<group>"; };
 		CBF84C351F8B692A0074004A /* Application_ATeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Application_ATeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF84C381F8B692A0074004A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBF84C3A1F8B692A0074004A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				CB97E06A1F8B79C100858029 /* PostsCollectionController.swift */,
 				CB97E06C1F8B7AA000858029 /* PostsCollectionControllerCell.swift */,
 				CB18697D1F8BE74600A3C1FB /* loadFromJSONPlace.swift */,
+				CBE2069C1F8D395A0003CF16 /* materialsView.swift */,
 			);
 			path = Application_ATeam;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				CB18697E1F8BE74600A3C1FB /* loadFromJSONPlace.swift in Sources */,
 				CBF84C391F8B692A0074004A /* AppDelegate.swift in Sources */,
 				CB97E06D1F8B7AA000858029 /* PostsCollectionControllerCell.swift in Sources */,
+				CBE2069D1F8D395A0003CF16 /* materialsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +366,7 @@
 			baseConfigurationReference = 055FBB2810B75CF5CCD680FA /* Pods-Application_ATeam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9RCKEM6H93;
@@ -381,6 +386,7 @@
 			baseConfigurationReference = BEFAE68D6031001401952C22 /* Pods-Application_ATeam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9RCKEM6H93;
