@@ -1,10 +1,14 @@
 # Application_ATeam
-> MainView
+> MainViewPosts
 
-![Screenshot](First.jpeg)
+![Screenshot](First.png)
 
-> SubMainView
+> SubMainViewSelectPost
 
-![Screenshot](Two.jpeg)
+![Screenshot](Two.png)
+
+> SubMainViewErrorInput
+
+![Screenshot](Three.png)
 
 
