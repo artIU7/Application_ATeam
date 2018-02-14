@@ -1,2 +1,10 @@
 # Application_ATeam
-/Users/stratienko.a/Desktop/QRlAg0b.png
+> MainView
+
+![Screenshot](First.jpeg)
+
+> SubMainView
+
+![Screenshot](Two.jpeg)
+
+
